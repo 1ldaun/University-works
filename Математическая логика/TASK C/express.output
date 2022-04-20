@@ -1,0 +1,211 @@
+Terminals unused in grammar
+
+    END
+
+
+Grammar
+
+    0 $accept: Input $end
+
+    1 Input: express
+
+    2 express: NAME
+    3        | LEFT express RIGHT
+    4        | express IMP express
+    5        | express OR express
+    6        | express AND express
+    7        | NEG express
+
+
+Terminals, with rules where they appear
+
+    $end (0) 0
+    error (256)
+    NAME <name> (258) 2
+    IMP <expr> (259) 4
+    OR <expr> (260) 5
+    AND <expr> (261) 6
+    NEG <expr> (262) 7
+    LEFT <expr> (263) 3
+    RIGHT <expr> (264) 3
+    END <expr> (265)
+
+
+Nonterminals, with rules where they appear
+
+    $accept (11)
+        on left: 0
+    Input <name> (12)
+        on left: 1
+        on right: 0
+    express <expr> (13)
+        on left: 2 3 4 5 6 7
+        on right: 1 3 4 5 6 7
+
+
+State 0
+
+    0 $accept: • Input $end
+
+    NAME  shift, and go to state 1
+    NEG   shift, and go to state 2
+    LEFT  shift, and go to state 3
+
+    Input    go to state 4
+    express  go to state 5
+
+
+State 1
+
+    2 express: NAME •
+
+    $default  reduce using rule 2 (express)
+
+
+State 2
+
+    7 express: NEG • express
+
+    NAME  shift, and go to state 1
+    NEG   shift, and go to state 2
+    LEFT  shift, and go to state 3
+
+    express  go to state 6
+
+
+State 3
+
+    3 express: LEFT • express RIGHT
+
+    NAME  shift, and go to state 1
+    NEG   shift, and go to state 2
+    LEFT  shift, and go to state 3
+
+    express  go to state 7
+
+
+State 4
+
+    0 $accept: Input • $end
+
+    $end  shift, and go to state 8
+
+
+State 5
+
+    1 Input: express •
+    4 express: express • IMP express
+    5        | express • OR express
+    6        | express • AND express
+
+    IMP  shift, and go to state 9
+    OR   shift, and go to state 10
+    AND  shift, and go to state 11
+
+    $default  reduce using rule 1 (Input)
+
+
+State 6
+
+    4 express: express • IMP express
+    5        | express • OR express
+    6        | express • AND express
+    7        | NEG express •
+
+    $default  reduce using rule 7 (express)
+
+
+State 7
+
+    3 express: LEFT express • RIGHT
+    4        | express • IMP express
+    5        | express • OR express
+    6        | express • AND express
+
+    IMP    shift, and go to state 9
+    OR     shift, and go to state 10
+    AND    shift, and go to state 11
+    RIGHT  shift, and go to state 12
+
+
+State 8
+
+    0 $accept: Input $end •
+
+    $default  accept
+
+
+State 9
+
+    4 express: express IMP • express
+
+    NAME  shift, and go to state 1
+    NEG   shift, and go to state 2
+    LEFT  shift, and go to state 3
+
+    express  go to state 13
+
+
+State 10
+
+    5 express: express OR • express
+
+    NAME  shift, and go to state 1
+    NEG   shift, and go to state 2
+    LEFT  shift, and go to state 3
+
+    express  go to state 14
+
+
+State 11
+
+    6 express: express AND • express
+
+    NAME  shift, and go to state 1
+    NEG   shift, and go to state 2
+    LEFT  shift, and go to state 3
+
+    express  go to state 15
+
+
+State 12
+
+    3 express: LEFT express RIGHT •
+
+    $default  reduce using rule 3 (express)
+
+
+State 13
+
+    4 express: express • IMP express
+    4        | express IMP express •
+    5        | express • OR express
+    6        | express • AND express
+
+    IMP  shift, and go to state 9
+    OR   shift, and go to state 10
+    AND  shift, and go to state 11
+
+    $default  reduce using rule 4 (express)
+
+
+State 14
+
+    4 express: express • IMP express
+    5        | express • OR express
+    5        | express OR express •
+    6        | express • AND express
+
+    AND  shift, and go to state 11
+
+    $default  reduce using rule 5 (express)
+
+
+State 15
+
+    4 express: express • IMP express
+    5        | express • OR express
+    6        | express • AND express
+    6        | express AND express •
+
+    $default  reduce using rule 6 (express)

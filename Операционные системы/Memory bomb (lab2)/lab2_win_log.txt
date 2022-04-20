@@ -1,0 +1,111 @@
+Total Physical Memory:     4 096 MB
+Available Physical Memory: 2 864 MB
+Virtual Memory: Max Size:  5 504 MB
+Virtual Memory: Available: 4 360 MB
+Virtual Memory: In Use:    1 144 MB
+Total Physical Memory:     4 096 MB
+Available Physical Memory: 2 861 MB
+Virtual Memory: Max Size:  5 504 MB
+Virtual Memory: Available: 4 361 MB
+Virtual Memory: In Use:    1 143 MB
+Total Physical Memory:     4 096 MB
+Available Physical Memory: 2 683 MB
+Virtual Memory: Max Size:  5 504 MB
+Virtual Memory: Available: 4 188 MB
+Virtual Memory: In Use:    1 316 MB
+Total Physical Memory:     4 096 MB
+Available Physical Memory: 2 489 MB
+Virtual Memory: Max Size:  5 504 MB
+Virtual Memory: Available: 3 986 MB
+Virtual Memory: In Use:    1 518 MB
+Total Physical Memory:     4 096 MB
+Available Physical Memory: 2 277 MB
+Virtual Memory: Max Size:  5 504 MB
+Virtual Memory: Available: 3 767 MB
+Virtual Memory: In Use:    1 737 MB
+Total Physical Memory:     4 096 MB
+Available Physical Memory: 2 072 MB
+Virtual Memory: Max Size:  5 504 MB
+Virtual Memory: Available: 3 560 MB
+Virtual Memory: In Use:    1 944 MB
+Total Physical Memory:     4 096 MB
+Available Physical Memory: 1 872 MB
+Virtual Memory: Max Size:  5 504 MB
+Virtual Memory: Available: 3 359 MB
+Virtual Memory: In Use:    2 145 MB
+Total Physical Memory:     4 096 MB
+Available Physical Memory: 1 669 MB
+Virtual Memory: Max Size:  5 504 MB
+Virtual Memory: Available: 3 154 MB
+Virtual Memory: In Use:    2 350 MB
+Total Physical Memory:     4 096 MB
+Available Physical Memory: 1 456 MB
+Virtual Memory: Max Size:  5 504 MB
+Virtual Memory: Available: 2 941 MB
+Virtual Memory: In Use:    2 563 MB
+Total Physical Memory:     4 096 MB
+Available Physical Memory: 1 261 MB
+Virtual Memory: Max Size:  5 504 MB
+Virtual Memory: Available: 2 750 MB
+Virtual Memory: In Use:    2 754 MB
+Total Physical Memory:     4 096 MB
+Available Physical Memory: 1 073 MB
+Virtual Memory: Max Size:  5 504 MB
+Virtual Memory: Available: 2 561 MB
+Virtual Memory: In Use:    2 943 MB
+Total Physical Memory:     4 096 MB
+Available Physical Memory: 951 MB
+Virtual Memory: Max Size:  5 504 MB
+Virtual Memory: Available: 2 382 MB
+Virtual Memory: In Use:    3 122 MB
+Total Physical Memory:     4 096 MB
+Available Physical Memory: 755 MB
+Virtual Memory: Max Size:  5 504 MB
+Virtual Memory: Available: 2 187 MB
+Virtual Memory: In Use:    3 317 MB
+Total Physical Memory:     4 096 MB
+Available Physical Memory: 587 MB
+Virtual Memory: Max Size:  5 504 MB
+Virtual Memory: Available: 2 020 MB
+Virtual Memory: In Use:    3 484 MB
+Total Physical Memory:     4 096 MB
+Available Physical Memory: 412 MB
+Virtual Memory: Max Size:  5 504 MB
+Virtual Memory: Available: 1 843 MB
+Virtual Memory: In Use:    3 661 MB
+Total Physical Memory:     4 096 MB
+Available Physical Memory: 302 MB
+Virtual Memory: Max Size:  5 504 MB
+Virtual Memory: Available: 1 689 MB
+Virtual Memory: In Use:    3 815 MB
+Total Physical Memory:     4 096 MB
+Available Physical Memory: 216 MB
+Virtual Memory: Max Size:  5 504 MB
+Virtual Memory: Available: 1 515 MB
+Virtual Memory: In Use:    3 989 MB
+Total Physical Memory:     4 096 MB
+Available Physical Memory: 145 MB
+Virtual Memory: Max Size:  5 504 MB
+Virtual Memory: Available: 1 319 MB
+Virtual Memory: In Use:    4 185 MB
+Total Physical Memory:     4 096 MB
+Available Physical Memory: 121 MB
+Virtual Memory: Max Size:  5 504 MB
+Virtual Memory: Available: 1 172 MB
+Virtual Memory: In Use:    4 332 MB
+Total Physical Memory:     4 096 MB
+Available Physical Memory: 127 MB
+Virtual Memory: Max Size:  5 504 MB
+Virtual Memory: Available: 1 031 MB
+Virtual Memory: In Use:    4 473 MB
+Total Physical Memory:     4 096 MB
+Available Physical Memory: 74 MB
+Virtual Memory: Max Size:  5 504 MB
+Virtual Memory: Available: 887 MB
+Virtual Memory: In Use:    4 617 MB
+Total Physical Memory:     4 096 MB
+Available Physical Memory: 24 MB
+Virtual Memory: Max Size:  5 504 MB
+Virtual Memory: Available: 718 MB
+Virtual Memory: In Use:    4 786 MB
+Total Physical Memory:     4 096 MB
